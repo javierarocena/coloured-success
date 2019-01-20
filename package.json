@@ -1,0 +1,25 @@
+{
+  "name": "coloured-success",
+  "version": "0.1.0",
+  "description": "An ultra lightweight Vanilla JS library that converts a success percentage in the relevant color",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/javierarocena/coloured-success.git"
+  },
+  "keywords": [
+    "javascript",
+    "color",
+    "success",
+    "coloured"
+  ],
+  "author": "Javier Arocena",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/javierarocena/coloured-success/issues"
+  },
+  "homepage": "https://github.com/javierarocena/coloured-success#readme"
+}
