@@ -1,4 +1,4 @@
-function generateRgb(success: number, scale = 1.5) {
+function generateRgb(success: number, scale = 1.5): string {
   if (!success) return "0,0,0";
   success *= scale;
   let red = 255,
@@ -12,7 +12,7 @@ function generateRgb(success: number, scale = 1.5) {
   return `${red},${green},${blue}`;
 }
 
-export function getRgbColorAsSucess(success: number, scale = 1.5) {
+export function getRgbColorAsSucess(success: number, scale = 1.5): string {
   return `rgb(${generateRgb(success, scale)})`;
 }
 
@@ -20,6 +20,6 @@ export function getRgbaColorAsSucess(
   success: number,
   alpha: number = 1,
   scale = 1.5
-) {
+): string {
   return `rgba(${generateRgb(success, scale)},${alpha})`;
 }
