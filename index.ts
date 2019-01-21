@@ -1,4 +1,5 @@
 function generateRgb(success: number, scale = 1.5) {
+  if (!success) return "0,0,0";
   success *= scale;
   let red = 255,
     green = 0,
