@@ -1,0 +1,37 @@
+/* You can add global styles to this file, and also import other style files */
+
+.ng5-slider .ng5-slider-pointer:after {
+  background-color: transparent !important;
+}
+
+* {
+  outline: none;
+}
+
+section.slider {
+  width: 360px;
+}
+body {
+  margin: 0;
+}
+
+.ng5-slider .ng5-slider-pointerm,
+.ng5-slider .ng5-slider-bar {
+  background-color: black !important;
+}
+
+.ng5-slider .ng5-slider-pointer {
+  background-color: black !important;
+}
+
+span.ng5-slider-span.ng5-slider-bubble.ng5-slider-limit.ng5-slider-ceil {
+  display: none;
+}
+
+span.ng5-slider-span.ng5-slider-bubble.ng5-slider-limit.ng5-slider-floor {
+  display: none;
+}
+
+span.ng5-slider-span.ng5-slider-bubble.ng5-slider-model-value {
+  display: none;
+}

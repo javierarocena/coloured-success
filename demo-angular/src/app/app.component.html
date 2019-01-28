@@ -1,0 +1,35 @@
+<section
+  [ngStyle]="{ backgroundColor: rgbaWrapepr(success, 1) }"
+  class="wrapper"
+>
+  <h1 [ngStyle]="{ color: rgbaWrapepr(success) }">{{ success }}%</h1>
+
+  <section class="slider">
+    <ng5-slider
+      [ngStyle]="{ backgroundColor: rgbaWrapepr(success, 0.4) }"
+      [(value)]="success"
+      [options]="options"
+    ></ng5-slider>
+  </section>
+</section>
+
+<!-- <span
+  class="metric"
+  *ngFor="let metric of metrics"
+  [ngStyle]="{
+    backgroundColor: rgbaWrapepr(metric, 0.2),
+    color: rgbaWrapepr(metric)
+  }"
+>
+  {{ metric }}
+</span> -->
+
+<!-- <span
+  class="grade"
+  *ngFor="let grade of grades"
+  [ngStyle]="{`
+    color: rgbaWrapepr(grade.value)
+  }"
+>
+  {{ grade.text }}
+</span> -->
