@@ -1,6 +1,6 @@
 # coloured-success
 
-An ultra lightweight Vanilla JS library that converts a success percentage in the relevant color
+An ultra lightweight Vanilla JS library that converts a percentage into its relevant color based on the rate of success
 
 ![Example of Coloured Success](doc/example.gif)
 
