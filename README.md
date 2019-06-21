@@ -30,6 +30,11 @@ import { getRgbColorAsSucess, getRgbaColorAsSucess } from "coloured-success";
 
 ```js
 
+<h1 [style.color]="getRgbColorAsSucess(40)"></h1>
+
+```
+```js
+
 <h1 [ngStyle]="{ color: getRgbColorAsSucess(40) }"></h1>
 
 ```
